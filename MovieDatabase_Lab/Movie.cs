@@ -19,13 +19,14 @@ namespace MovieDatabase_Lab
             _category = c;
         }
 
-        //Method for category
+        //Method for category since private
 
         public string GetCategory()
         {
             return _category;
         }
-
+        
+        //Method for titel since private
         public string GetTitle()
         {
             return _title;
